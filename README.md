@@ -1,4 +1,4 @@
-# Covid-Tracker-IEEE Project
+# Covid-Tracker-IEEE
 
 ## About
 
@@ -7,13 +7,13 @@ A website which displays plots and analytics by scraping relevant data from gove
 
 ## Members
 
-### | Member name| 
-### | :------------:|
-### | Samyak Sanjay Sand| 
-### | L Koushik|  
-### | Arjun Gowda A G|
-### | Shashank S K|
-### | Nitin Singh|
+| Member name| 
+| :------------:|
+| Samyak Sanjay Sand| 
+| L Koushik|  
+| Arjun Gowda A G|
+| Shashank S K|
+| Nitin Singh|
 
 
 
