@@ -155,8 +155,11 @@ img {
 }
 
 #title_fortable {
-  background-color: azure;
-  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 60px;
+  color: aliceblue;
+  display: inline;
 }
 
 .data {
@@ -166,6 +169,10 @@ img {
   background-color: rgb(30, 30, 30);
   display: flex;
   flex-direction: row;
+}
+
+#data {
+  margin-left: 350px;
 }
 
 .about {
