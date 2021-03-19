@@ -1,4 +1,4 @@
-# Covid-Tracker-IEEE
+# Covid-Tracker-IEEE Project
 
 ## About
 
