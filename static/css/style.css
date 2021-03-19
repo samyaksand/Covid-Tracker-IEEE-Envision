@@ -15,10 +15,6 @@ header {
   top: 0;
   width: 100%;
 }
-header a:hover {
-  background-color: green;
-  color: white;
-}
 
 th {
   color: white;
@@ -61,18 +57,16 @@ h2 {
 }
 
 .menu {
+  font-size: x-large;
   color: aliceblue;
   margin: auto;
-  width: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  width: fit-content;
 }
 
-#about {
-  width: 150px;
-  padding-top: 25px;
-  padding-left: 50px;
-  border-radius: 12px;
+.menu:hover {
   background-color: #5cdb95;
-  margin-right: 60px;
 }
 
 .somedata {
@@ -163,8 +157,7 @@ img {
 }
 
 .data {
-  padding-top: 50px;
-  padding-left: 50px;
+  padding: 50px;
   height: 1500px;
   background-color: rgb(30, 30, 30);
   display: flex;
@@ -172,7 +165,7 @@ img {
 }
 
 #data {
-  margin-left: 350px;
+  margin :auto;
 }
 
 .about {
