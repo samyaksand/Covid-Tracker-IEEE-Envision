@@ -11,6 +11,40 @@ header {
   padding: 20px;
   background-color: rgb(40, 40, 40);
   height: 75px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header a:hover {
+  background-color: green;
+  color: white;
+}
+
+th {
+  color: white;
+  height: 50px;
+  padding: 10px;
+}
+
+td {
+  color: white;
+  text-align: left;
+  padding: 8px;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+
+@media screen and (max-width: 800px) {
+  .table,
+  .graph {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 h2 {
@@ -27,19 +61,22 @@ h2 {
 }
 
 .menu {
-  font-size: x-large;
   color: aliceblue;
   margin: auto;
-  padding: 20px;
-  border-radius: 10px;
-  width: fit-content;
+  width: 100px;
 }
 
-.menu:hover {
+#about {
+  width: 150px;
+  padding-top: 25px;
+  padding-left: 50px;
+  border-radius: 12px;
   background-color: #5cdb95;
+  margin-right: 60px;
 }
 
 .somedata {
+  margin-top: 75px;
   background-color: rgb(30, 30, 30);
   height: 1000px;
   display: flex;
@@ -60,6 +97,7 @@ h2 {
 }
 
 img {
+  margin-top: 160px;
   height: 500px;
 }
 
@@ -116,8 +154,15 @@ img {
   border-radius: 12%;
 }
 
+#title_fortable {
+  background-color: azure;
+  display: block;
+}
+
 .data {
-  height: 1000px;
+  padding-top: 50px;
+  padding-left: 50px;
+  height: 1500px;
   background-color: rgb(30, 30, 30);
   display: flex;
   flex-direction: row;
