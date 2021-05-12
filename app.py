@@ -1,16 +1,14 @@
+import requests, json
 from flask import Flask, render_template
 
 app=Flask(__name__)
 
-# web scarping...
 
-data = {
+url = 'https://www.mohfw.gov.in/data/datanew.json'
 
-    'total': 300,
-    'active': 200,
-    'recover': 100,
+res = requests.get(url)
 
-}
+data = res.json()
 
 @app.route('/')
 def home_page():
