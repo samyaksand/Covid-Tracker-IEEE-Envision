@@ -180,32 +180,39 @@ img {
 
 #guy1 {
   margin: 50px;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   border-radius: 150px;
-  box-shadow: 2px 2px 50px 2px #ff0101;
+  box-shadow: 2px 2px 50px 2px #001aff;
 }
 
 #guy2 {
   margin: 50px;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   border-radius: 150px;
-  box-shadow: 2px 2px 50px 2px #ff0000;
+  box-shadow: 2px 2px 50px 2px #001aff;
 }
 
 #guy3 {
   margin: 50px;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   border-radius: 150px;
-  box-shadow: 2px 2px 50px 2px #ff0000;
+  box-shadow: 2px 2px 50px 2px #001aff;
 }
 
 #guy4 {
   margin: 50px;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   border-radius: 150px;
-  box-shadow: 2px 2px 50px 2px #ff0000;
+  box-shadow: 2px 2px 50px 2px #001aff;
+}
+#guy5 {
+  margin: 50px;
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  box-shadow: 2px 2px 50px 2px #001aff;
 }
