@@ -43,13 +43,29 @@
 
     <div class="mainbox">
       <div id="headline"><h1>DATA</h1></div>
-      <div class="graphs">
-        <div class="G">graphs</div>
-        <div class="G">graph1</div>
-        <div class="G">graph2</div>
-        <div class="G">graph3</div>
-      </div>
+    <!---------------------------------------------------------------------> 
+    <style>
+      * {
+        box-sizing: border-box;
+        }
+      
+      .column {
+        float: left;
+        width: 50%;
+        padding: 5px;
+      }
+      
+      </style>
+
+    <!------Load the SVG from static/data folder into an object tag -->
+
+    <div class="column">
+    <object type = "image/svg+xml" data="../static/data/active.svg" width="100%"></object>
     </div>
+    <div class="column">
+    <object type = "image/svg+xml" data="../static/data/positive.svg" width="100%"></object>
+    </div>
+    <!---------------------------------------------------------------------> 
 
     <div class="data">
       <div id="data">
@@ -97,13 +113,13 @@
       id="guy3"
       src="../static/images/samyak.jpeg"
       alt=""
-    />
+      />
       <img
       id="guy4"
       src="../static/images/WhatsApp Image 2021-03-14 at 5.36.46 PM.jpeg"
       alt=""
-    />
-
+       />
+    
 
       <div class="more"></div>
     </div>
