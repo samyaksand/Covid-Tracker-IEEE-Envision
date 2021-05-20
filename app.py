@@ -3,7 +3,7 @@ import json
 import pygal
 from flask import Flask, render_template
 #import pandarequest
-import panda as pd
+import pandas as pd
 import plotly.express as px
 
 app = Flask(__name__)
@@ -124,7 +124,7 @@ df = pd.DataFrame(data)
 df['active'] = df['active'].astype(int)
 
 geojson_file = open('india.geojson','r')
-geojson_file = json.load(geojson_file)
+geojson_data = json.load(geojson_file)
 
 map = px.choropleth(
     df,
@@ -135,10 +135,10 @@ map = px.choropleth(
     geojson = geojson_data,
     featureidkey = 'properties.ST_NM',
 
-    color_continuous_scale = 'red'
+    color_continuous_scale = 'curl'
 )
 
-map.update_geos(fitbounds = 'locations', visible = false)
+map.update_geos(fitbounds = 'locations')
 
 map.write_html('static/data/map.html')
 
