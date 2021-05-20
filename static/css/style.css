@@ -112,7 +112,7 @@ img {
   font-size: 75px;
 }
 
-.map {
+.maps {
   margin-top: 50px;
   box-shadow: 2px 2px 100px 2px #888888;
   border-radius: 20px;
@@ -215,3 +215,11 @@ img {
   border-radius: 150px;
   box-shadow: 2px 2px 50px 2px #001aff;
 }
+
+#guy5 {
+  box-shadow: 2px 2px 100px 2px #001aff;
+  margin: 50px;
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+}       
