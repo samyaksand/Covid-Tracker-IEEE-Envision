@@ -15,6 +15,13 @@ A website which displays plots and analytics by scraping relevant data from gove
 | Shashank S K|
 | Nitin Singh|
 
+## Mentors
+
+| Mentor name| 
+| :------------:|
+| Pratham Nayak| 
+| Janmansh Agarwal|
+
 
 
  
