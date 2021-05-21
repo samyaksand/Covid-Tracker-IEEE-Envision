@@ -147,7 +147,7 @@ map.write_html('static/data/map.html')
 
 @app.route('/')
 def home_page():
-    return render_template('index p1.html', data=data)
+    return render_template('index.html', data=data)
 
 @app.route('/dead_graph')
 def dead_graph():
