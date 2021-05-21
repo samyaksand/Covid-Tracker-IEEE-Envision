@@ -7,38 +7,17 @@
     <meta charset="UTF-8" />
     <meta name="keywords" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="stylesheet" href="../static/css/style.css"/>
+
   </head>
 
   <body>
     <header>
-      <div style="color: #5cdb95; margin-top: 10px" id="head">
-        COVID TRACKER
-      </div>
-      <a
-        href="#heremap"
-        class="menu"
-        style="text-decoration: none; color: aliceblue"
-        >Maps</a
-      >
-      <a
-        href="#headline"
-        class="menu"
-        style="text-decoration: none; color: aliceblue"
-        >Graphs</a
-      >
-      <a
-        href="#data"
-        class="menu"
-        style="text-decoration: none; color: aliceblue"
-        >Table</a
-      >
-      <a
-        href="#about"
-        class="menu"
-        style="text-decoration: none; color: aliceblue; font-size: 25px"
-        >About Us</a
-      >
+      <div id="head">COVID TRACKER</div>
+      <a href="#heremap" class="menu">Maps</a>
+      <a href="#headline" class="menu">Graphs</a>
+      <a href="#data" class="menu">Table</a>
+      <a href="#about" class="menu">About Us</a>
     </header>
 
     <div class="somedata">
@@ -46,13 +25,7 @@
         <h1 class="main1">Details of project</h1>
         <h2>hello there things have been good</h2>
         <h2>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </h2>
       </div>
 
@@ -70,64 +43,15 @@
 
     <div class="mainbox">
       <div id="headline"><h1>DATA</h1></div>
-
       <div class="graphs">
-        <!--/////////this is first set of 2 graphs begin-->
-        <div>
-          <!--this is first graph-->
-          <div class="G">
-            <object
-              type="image/svg+xml"
-              data="../static/data/active.svg"
-              width="100%"
-              height="100%"
-            ></object>
-          </div>
-
-          <!--this is the second graph-->
-          <div class="G">
-            <object
-              type="image/svg+xml"
-              data="../static/data/active.svg"
-              width="100%"
-              height="100%"
-            ></object>
-          </div>
-        </div>
-        <!--////////this is end of first set of 2 graphs-->
-      </div>
-
-      <div class="graph">
-        <!--////////this is start of second set of 2 graphs-->
-        <div>
-          <!--begin third graph-->
-          <div class="G2">
-            <object
-              type="image/svg+xml"
-              data="../static/data/active.svg"
-              width="100%"
-              height="100%"
-            ></object>
-          </div>
-          <!--end third graph-->
-
-          <!--begin fourth graph-->
-          <div class="G2">
-            <object
-              type="image/svg+xml"
-              data="../static/data/active.svg"
-              width="100%"
-              height="100%"
-            ></object>
-          </div>
-          <!--end fourth graph-->
-        </div>
-        <!--/////////this is end of second set -->
+        <div class="G">graphs</div>
+        <div class="G">graph1</div>
+        <div class="G">graph2</div>
+        <div class="G">graph3</div>
       </div>
     </div>
 
     <div class="data">
-      <div id="title_fortable"></div>
       <div id="data">
         <table>
           <tr>
@@ -137,18 +61,265 @@
             <th>Recovered cases</th>
             <th>Deaths</th>
           </tr>
-
-          {% for dict in data %}
-
           <tr>
-            <td>{{dict.state_name}}</td>
-            <td>{{dict.new_positive}}</td>
-            <td>{{dict.new_active}}</td>
-            <td>{{dict.new_cured}}</td>
-            <td>{{dict.new_death}}</td>
+            <td>Andaman and Nicobar Island</td>
+            <td>{{ data.total }}</td>
+            <td>{{ data.active }}</td>
+            <td>{{ data.recover }}</td>
+            <td></td>
           </tr>
-
-          {% endfor %}
+          <tr>
+            <td>Andhra Pradesh</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Arunachal Pradesh</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Assam</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Bihar</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Chandigarh</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Chhatisgarh</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Dadra & Nagar Haveli</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Daman & Diu</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Delhi</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Goa</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gujarat</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Haryana</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Himachal Pradesh</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Jammu & Kashmir</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Jharkhand</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Karnataka</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Kerala</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Ladakh</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Lakshadweep</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Madhya Pradesh</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Maharashtra</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Manipur</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Meghalaya</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Mizoram</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Nagaland</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Orrisa</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Puducherry</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Punjab</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Rajasthan</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Sikkim</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Tamil Nadu</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Telengana</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Tripura</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Uttar Pradesh</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Uttarakhand</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>West Bengal</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
         </table>
       </div>
     </div>
@@ -160,58 +331,16 @@
         id="guy1"
         src="../static/images/WhatsApp Image 2021-03-14 at 5.35.42 PM.jpeg"
         alt=""
-        style="
-          box-shadow: 2px 2px 100px 2px #888888;
-          margin: 50px;
-          height: 300px;
-          width: 300px;
-        "
       />
       <img
         id="guy2"
         src="../static/images/WhatsApp Image 2021-03-14 at 5.36.08 PM.jpeg"
         alt=""
-        style="
-          box-shadow: 2px 2px 100px 2px #888888;
-          margin: 50px;
-          height: 300px;
-          width: 300px;
-        "
       />
       <img
         id="guy3"
         src="../static/images/WhatsApp Image 2021-03-14 at 5.36.46 PM.jpeg"
         alt=""
-        style="
-          box-shadow: 2px 2px 100px 2px #888888;
-          margin: 50px;
-          height: 300px;
-          width: 300px;
-        "
-      />
-
-      <img
-        id="guy3"
-        src="../static/images/IMG_20160803_210643732.jpg"
-        alt=""
-        style="
-          box-shadow: 2px 2px 100px 2px #888888;
-          margin: 50px;
-          height: 300px;
-          width: 300px;
-        "
-      />
-
-      <img
-        id="guy3"
-        src="../static/images/samyak.jpeg"
-        alt=""
-        style="
-          box-shadow: 2px 2px 100px 2px #888888;
-          margin: 50px;
-          height: 300px;
-          width: 300px;
-        "
       />
 
       <div class="more"></div>
