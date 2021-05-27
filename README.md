@@ -10,9 +10,9 @@ This is basically a website that displays plots and analytics by scraping releva
 
 | Team Members |  
 | :------------: |  
-| Samyak Sanjay Sand |  
-| Shashank S K |  
-| L Koushik |  
+| [Samyak Sanjay Sand](https://github.com/samyaksand) |  
+| [Shashank S K](https://github.com/shashanksk) |  
+| [L Koushik](https://github.com/LKoushik2003) |  
 | Nitin Singh |  
 | Arjun Gowda A G |  
 
