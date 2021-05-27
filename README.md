@@ -16,6 +16,16 @@ This is basically a website that displays plots and analytics by scraping releva
 | Nitin Singh |  
 | Arjun Gowda A G |  
 
+## Libraries/Softwares Used
+
+| Libraries/Softwares | Description |
+| --- | --- |
+| Plotly |  Python Library that makes interactive, publication-quality **maps**.|
+| Pygal | Python Library that creates highly **interactive graphs**. |
+| Pandas | Python library used for performing **data analysis.** |
+| Jinja | Jinja is a fast, expressive, extensible **templating engine for Python**. |
+| Flask | It is a **micro web framework** for building web applications with Python. |
+
 # Screenshots 
 
 ## 1) The Main Page
@@ -33,12 +43,3 @@ This is basically a website that displays plots and analytics by scraping releva
 ## 5) About us
 ![image](https://user-images.githubusercontent.com/62803746/119886810-71089000-bf44-11eb-896c-e84642303237.png)
 
-## Libraries/Softwares Used
-
-| Libraries/Softwares | Description |
-| --- | --- |
-| Plotly |  Python Library that makes interactive, publication-quality **maps**.|
-| Pygal | Python Library that creates highly **interactive graphs**. |
-| Pandas | Python library used for performing **data analysis.** |
-| Jinja | Jinja is a fast, expressive, extensible **templating engine for Python**. |
-| Flask | It is a **micro web framework** for building web applications with Python. |
