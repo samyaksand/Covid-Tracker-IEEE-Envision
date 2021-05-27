@@ -24,3 +24,4 @@ This is basically a website that displays plots and analytics by scraping releva
 | Pygal | Python Library that creates highly **interactive graphs**. |
 | Pandas | Python library used for performing **data analysis.** |
 | Jinja | Jinja is a fast, expressive, extensible **templating engine for Python**. |
+| Flask | It is a **micro web framework** for building web applications with Python. |
