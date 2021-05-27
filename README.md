@@ -30,9 +30,6 @@ This is basically a website that displays plots and analytics by scraping releva
 ## 4) Live COVID STATEWISE STATUS
 ![image](https://user-images.githubusercontent.com/62803746/119883948-29ccd000-bf41-11eb-9991-387fc41af987.png)
 
-## 5) About US
-
-
 ## Libraries/Softwares Used
 
 | Libraries/Softwares | Description |
