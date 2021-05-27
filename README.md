@@ -1,5 +1,7 @@
 # Covid Tracker
 
+This Repository is for Covid Tracker Web App built during the IEEE Envision 2021 Project.
+
 ## About
 
 For people dealing with uncertainty regarding the pandemic situation in the near future, this website provides them with the current covid status, recovery scenario. Furthermore, it interpolates the data to give insights into the possible situation in the next few months.
