@@ -28,19 +28,19 @@ This is basically a website that displays plots and analytics by scraping releva
 | Jinja | Jinja is a fast, expressive, extensible **templating engine for Python**. |
 | Flask | It is a **micro web framework** for building web applications with Python. |
 
-## How it works
+## How It Works
 
-- The website is dynamically hosted using flask.
+- The website is **dynamically hosted using flask**.
 
-- Data was loaded and extracted using the official API from [Ministry of Health](https://www.mohfw.gov.in/) website as a .json file which is converted into a dictonary and used throught the program.
+- Data was loaded and **extracted using the official API** from [Ministry of Health](https://www.mohfw.gov.in/) website as a .json file which is converted into a dictonary and used throught the program.
 
-- The display of maps was made using plotly library using pandas to organise the data dictionary data.
+- The **display of maps** was made using **plotly library** using pandas to organise the data dictionary data.
 
-- The India map is a geojson file that is updated with the data from the .json dictionary arranged by panda data frame, rendered, saved as an HTML file which is later embedded into the main HTML document.
+- The India map is a **geojson file** that is updated with the data from the .json dictionary **arranged by panda data frame**, rendered, saved as an HTML file which is later embedded into the main HTML document.
 
-- Plots were created by the library pygal where a specific data was separated from the data sorted then rendered a scalable vector graphics (.svg) to preserve quality while zooming, later passed as an object element.
+- **Plots** were created by the **Pygal library** where a specific data was separated from the data sorted then rendered a scalable vector graphics (.svg) to preserve quality while zooming, later passed as an object element.
 
-- The data in the table is dynamically loaded using the web template language Jinja, where only one column is created, and the rest is loaded by looping the rest of the rows.  
+- The data in the table is **dynamically loaded using the web template language Jinja**, where only one column is created, and the rest is loaded by looping the rest of the rows.  
 
 # Screenshots 
 
