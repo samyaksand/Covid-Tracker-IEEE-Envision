@@ -38,17 +38,17 @@ This is basically a website that displays plots and analytics by scraping releva
 
 ## Technologies used
 
-|The website is dynamically hosted using flask |
+The website is dynamically hosted using flask
 
-|Data was extracted using the official API from the ministry of health| 
+Data was extracted using the official API from the ministry of health
 
-|For data management and display we use PANDA  data frames|
+For data management and display we use PANDA  data frames
 
-|To create the map we use the geojson file of India with the data from pandas| 
+To create the map we use the geojson file of India with the data from pandas 
 
-Plots were created by the library pygal and the file format used are scalable vector graphics (.svg)|
+Plots were created by the library pygal and the file format used are scalable vector graphics (.svg)
 
-|The data in the table is dynamically loaded using the web template language jinja|
+The data in the table is dynamically loaded using the web template language jinja
 
 # Screenshots 
 
