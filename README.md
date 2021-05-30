@@ -36,6 +36,20 @@ This is basically a website that displays plots and analytics by scraping releva
 | Jinja | Jinja is a fast, expressive, extensible **templating engine for Python**. |
 | Flask | It is a **micro web framework** for building web applications with Python. |
 
+## Technologies used
+
+|The website is dynamically hosted using flask |
+
+|Data was extracted using the official API from the ministry of health| 
+
+|For data management and display we use PANDA  data frames|
+
+|To create the map we use the geojson file of India with the data from pandas| 
+
+Plots were created by the library pygal and the file format used are scalable vector graphics (.svg)|
+
+|The data in the table is dynamically loaded using the web template language jinja|
+
 # Screenshots 
 
 ## 1) The Main Page
