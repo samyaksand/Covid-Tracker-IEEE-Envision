@@ -1,20 +1,12 @@
 # Covid Tracker
 
-This Repository is for the Covid Tracker Web App built during the IEEE Envision 2021 Project.
+This Repository is for Covid Tracker Web App built during the IEEE Envision 2021 Project.
 
 ## About
 
 For people dealing with uncertainty regarding the pandemic situation in the near future, this website provides them with the current covid status, recovery scenario. Furthermore, it interpolates the data to give insights into the possible situation in the next few months.
 
 This is basically a website that displays plots and analytics by scraping relevant data from government data portals to give an insight into the current state-wise pandemic situation and recovery status in India.
-
-## Mentors
-
-| Mentors |  
-| :------------: | 
-| [Janmansh Agarwal](https://github.com/Janmansh) |  
-| [Pratham Nayak](https://github.com/spectre900) |  
-
 
 ## Members
 
@@ -36,20 +28,19 @@ This is basically a website that displays plots and analytics by scraping releva
 | Jinja | Jinja is a fast, expressive, extensible **templating engine for Python**. |
 | Flask | It is a **micro web framework** for building web applications with Python. |
 
-## Technologies used
+## How It Works
 
-The website is dynamically hosted using flask.
+- The website is **dynamically hosted using flask**.
 
-Data was loaded and extracted using the official API from the ministry of health as a .json file which is converted into a dictonary and used throught       the program.
+- Data was loaded and **extracted using the official API** from [Ministry of Health](https://www.mohfw.gov.in/) website as a .json file which is converted into a dictonary and used throught the program.
 
-The display of maps was made using plottly usind pandas to organise the data dictionary data.
+- The **display of maps** was made using **plotly library** using pandas to organise the data dictionary data.
 
-The india map is a geojson file which is updated with the data from the .json dictionary arraged by panda data frame, rendered , saved as a HTML file which is later embedded into the main HTML document.
+- The India map is a **geojson file** that is updated with the data from the .json dictionary **arranged by panda data frame**, rendered, saved as an HTML file which is later embedded into the main HTML document.
 
-Plots were created by the library pygal where a specific data was separated from the data sorted then rendered a scalable vector graphics (.svg) to preserve quality while zooming, later passed as an object element.
+- **Plots** were created by the **Pygal library** where a specific data was separated from the data sorted then rendered a scalable vector graphics (.svg) to preserve quality while zooming, later passed as an object element.
 
-The data in the table is dynamically loaded using the web template language jinja where only one column is created and the rest is loaded by looping the rest of the rows. 
-
+- The data in the table is **dynamically loaded using the web template language Jinja**, where only one column is created, and the rest is loaded by looping the rest of the rows.  
 
 # Screenshots 
 
