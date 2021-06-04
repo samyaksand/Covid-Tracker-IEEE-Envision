@@ -8,6 +8,13 @@ For people dealing with uncertainty regarding the pandemic situation in the near
 
 This is basically a website that displays plots and analytics by scraping relevant data from government data portals to give an insight into the current state-wise pandemic situation and recovery status in India.
 
+## Mentors
+
+| Mentors |  
+| :------------: | 
+| [Janmansh Agarwal](https://github.com/Janmansh) |  
+| [Pratham Nayak](https://github.com/spectre900) | 
+
 ## Members
 
 | Team Members |  
