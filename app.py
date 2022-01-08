@@ -4,7 +4,6 @@ import pygal
 import plotly.express as px
 from flask import Flask, render_template
 
-
 # API for Table Cases Data----------------------------------------------------------
 
 # API - to access web data
